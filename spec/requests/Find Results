@@ -1,0 +1,33 @@
+Searching 140 files for "link_to"
+
+/Users/user/WebApp/sample_app/app/views/layouts/_footer.html.erb:
+    5  	<nav>
+    6  		<ul>
+    7: 			<li><%= link_to "About", 'about_path' %></li>
+    8: 			<li><%= link_to "Contact", '#' %></li>
+    9  			<li><a href="http://news/railstutorial.org">News</a></li>
+   10  		</ul>
+
+/Users/user/WebApp/sample_app/app/views/layouts/_header.html.erb:
+    2  		<div class="navbar-inner">
+    3  			<div class="container">
+    4: 				<%= link_to "sample app", '#', id: "logo" %>
+    5  				<nav>
+    6  					<ul class="nav pull-right">
+    7: 						<li><%= link_to "Home", '#' %></li>
+    8: 						<li><%= link_to "Help", '#' %></li>
+    9: 						<li><%= link_to "Sign in", '#' %></li>
+   10  					</ul>
+   11  				</nav>
+
+/Users/user/WebApp/sample_app/app/views/static_pages/home.html.erb:
+   12  	</h2>
+   13  
+   14: 	<%= link_to "Sign up now", '#', class: "btn btn-large btn-primary" %>
+   15  </div>
+   16  
+   17: <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+   18  
+   19  
+
+8 matches across 3 files
